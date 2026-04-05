@@ -34,3 +34,27 @@ const myfunctionn=function(){
 }
 
 console.log(typeof outsideTemp );
+
+
+//+++++++++++++++++++++++++++++++++ memory
+
+// stack (primitive)=copy, heap(non-primitive)=reference of original value
+
+let myYoutubename = "hiteshchoudharydotcom"
+
+let anothername = myYoutubename
+anothername ="chaiaurcode"
+
+console.log(myYoutubename)
+console.log(anothername);
+
+let userone ={
+    email: "user@google.com",
+    upi:"user@bl"
+}
+
+let userTow = userone
+userTow.email ="hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
